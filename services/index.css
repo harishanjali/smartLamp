@@ -1,0 +1,144 @@
+body{
+    margin:0px;
+    display: flex;
+    flex-direction: column;
+    
+}
+a{
+    text-decoration: none;
+}
+@font-face {
+    font-family:"hariRoboto";
+    src: url('Roboto-Thin.ttf');
+}
+@font-face {
+    font-family:"Roboto";
+    src: url('Roboto-Regular.ttf');
+}
+.navbar{
+    background-color: #211f5e;
+    height:70px;
+    /* margin-top:0px; */
+    display: flex;
+    justify-content: space-around;
+    top:0px;
+    position: fixed;
+    width:100%;
+    
+}
+#sectionHome{
+    background-color:#131413;
+    display: flex;
+    flex-direction: column;
+    top:70px;
+    /* position:static; */
+    height:100vh;
+}
+.nav-links{
+    list-style-type:none;
+    display: flex;
+    font-family:hariRoboto;
+    /* justify-content: center;
+    align-items: center; */
+    
+}
+.nav-element{
+    text-decoration: none;
+    color:#ffffff;
+    margin-left:15px;
+    padding:10px;
+}
+.nav-element:hover{
+    border:1px solid #ffffff;
+}
+#footer{
+    background-color: #18497a;
+    height:5vh;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    font-family:hariRoboto;
+    padding:150px;
+    color:beige;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.copyright{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.link{
+    color:none;
+}
+.icon{
+    margin-right:15px;
+    color:#ffffff;
+}
+.company-logo{
+    height:80px;
+    width:50px;
+}
+.logo-container{
+    display: flex;
+    color:beige;
+    font-family:hariRoboto;
+
+}
+.section{
+    height:50vh;
+    display: flex;
+    flex-direction:row;
+    font-family:hariRoboto;
+    padding:100px;
+    color:beige;
+}
+.description-image{
+    height:250px;
+    width:250px;
+    border-radius:10px;
+    box-shadow: 10px 10px 10px black;
+}
+#onlineBooking{
+    background-image:linear-gradient(#c92a84, #181a18);
+}
+#fitting{
+    background-image:linear-gradient(#63e0bf,#292e2d);
+}
+#wiring{
+    background-image:linear-gradient(#522ac9,#292e2d);
+}
+#customerService{
+    background-image:linear-gradient(#e3794b,#292e2d);
+
+}
+#monthService{
+    background-image:linear-gradient(#bbbd40,#292e2d);
+}
+#premiumQuality{
+    background-image:linear-gradient(#6f1cc7,#292e2d);
+}
+#sustainability{
+    background-image:linear-gradient(#6f1cc7,#292e2d);
+}
+#longLasting{
+    background-image:linear-gradient(#6f1cc7,#292e2d);
+}
+#energySaving{
+    background-image:linear-gradient(#6f1cc7,#292e2d);
+}
+#intimeDelivery{
+    background-image:linear-gradient(#6f1cc7,#292e2d);
+}
+.description-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:15px;
+    font-size:22px;
+
+}

@@ -1,0 +1,152 @@
+body{
+    margin:0px;
+}
+a{
+    text-decoration: none;
+}
+@font-face {
+    font-family:"hariRoboto";
+    src: url('Roboto-Thin.ttf');
+}
+@font-face {
+    font-family:"Roboto";
+    src: url('Roboto-Regular.ttf');
+}
+.navbar{
+    background-color: #1a202e;
+    height:70px;
+    /* margin-top:0px; */
+    display: flex;
+    justify-content: space-around;
+    top:0px;
+    position: fixed;
+    width:100%;
+    
+}
+.nav-links{
+    list-style-type:none;
+    display: flex;
+    font-family:hariRoboto;
+    /* justify-content: center;
+    align-items: center; */
+    
+}
+.nav-element{
+    text-decoration: none;
+    color:#ffffff;
+    margin-left:15px;
+    padding:10px;
+}
+.nav-element:hover{
+    border:1px solid #ffffff;
+}
+.company-logo{
+    height:80px;
+    width:50px;
+}
+.logo-container{
+    display: flex;
+    font-family:hariRoboto;
+    color:beige;
+
+}
+
+.section{
+    padding:150px;
+    color:beige;
+    font-family:hariRoboto;
+
+}
+/* footer */
+
+#footer{
+    background-color: #18497a;
+    height:5vh;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    font-family:hariRoboto;
+    padding:150px;
+    color:beige;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.copyright{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.link{
+    color:none;
+}
+.icon{
+    margin-right:15px;
+    color:#ffffff;
+}
+#livingRoom{
+    background-image:linear-gradient(#cc930e,black);
+}
+#bedRoom{
+    background-image:linear-gradient(#30c922,black);
+}
+#kitchenRoom{
+    background-image:linear-gradient(#32a883,black);
+}
+#bathRoom{
+    background-image:linear-gradient(red,black);
+
+}
+#outdoor{
+    background-image:linear-gradient(#3b1980,black);
+
+}
+.special-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.product-image{
+    height:120px;
+    width:150px;
+}
+
+.product-container{
+    padding:15px;
+    font-family:hariRoboto;
+    /* border:0.4px solid beige; */
+    background-image:linear-gradient(#439c52,#242624);
+    box-shadow: 5px 10px 20px black;
+    border-radius: 5px;
+    margin:10px;
+    height:380px;
+    width:220px;
+    flex-wrap: wrap;
+    margin:15px;
+    cursor: pointer;
+}
+
+.no-elements{
+    display: none;
+}
+.cart-image{
+    height:50px;
+}
+.cart-button{
+    background-color:#ffffff;
+}
+.cart-container{
+    display: flex;
+    color:#ffffff;
+    font-weight: bold;
+    font-size:20px;
+}
+button{
+    cursor: pointer;
+    background-color: orange;
+    border-style:none;
+    border-radius: 4px;
+    color:black;
+    font-size: 14px;
+}
